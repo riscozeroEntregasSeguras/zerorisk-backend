@@ -4,7 +4,7 @@ api = Namespace("order")
 
 
 @api.route("/create", methods=['PUT'])
-class Cancel(Resource):
+class Create(Resource):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 

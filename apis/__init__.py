@@ -1,9 +1,8 @@
 from flask_restplus import Api
 
-from .zerorisk_api import api as zerorisk_api
-from .user_api import api as user_api
 from .order_api import api as order_api
-
+from .user_api import api as user_api
+from .zerorisk_api import api as zerorisk_api
 
 api = Api(
     version="1.0",

@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 flask-restplus = "*"
+flask-cors = "*"
 Werkzeug = "==0.16.1"
 pyopenssl = "*"
 gunicorn = "*"
