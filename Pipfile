@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 flask-restplus = "*"
 Werkzeug = "==0.16.1"
+pyopenssl = "*"
 
 [requires]
 python_version = "3.7"
