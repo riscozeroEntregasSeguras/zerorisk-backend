@@ -9,7 +9,7 @@ class Create(Resource):
         super().__init__(*args, **kwargs)
 
     @api.response(200, "Success")
-    def post(self):
+    def put(self):
         """Create an order"""
 
 
