@@ -10,6 +10,7 @@ flask = "*"
 flask-restplus = "*"
 Werkzeug = "==0.16.1"
 pyopenssl = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
