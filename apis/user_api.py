@@ -1,4 +1,8 @@
+import logging
+
 from flask_restplus import Namespace, Resource
+
+from models.postgres.tables import User
 
 api = Namespace("user")
 
@@ -9,8 +13,9 @@ class AccessToken(Resource):
         super().__init__(*args, **kwargs)
 
     @api.response(200, "Success")
-    def get(self):
+    def get(self, user_email):
         """Gets the access token from user email"""
+        logging.error(User.get(email=user_email))
 
 
 @api.route("/get/<path:access_token>", methods=['GET'])

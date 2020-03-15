@@ -1,0 +1,5 @@
+DB_HOST = "localhost"
+DB_PORT = "5432"
+DB_USER = "local_client"
+DB_NAME = "zero_risk"
+DB_PASSWORD = "local_client"
